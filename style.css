@@ -58,7 +58,7 @@
     transition: 0.3s ease-in-out;
 
     &:hover{
-        background: #55565A;
+        background: #D5C9BE;
     }
   }
   
@@ -305,7 +305,7 @@
 .block-list{
     margin: 0 auto;
     width: 614px;
-    margin-top: 53px;
+    margin-top: 20px;
 }
 .block-item{
     display: flex;
