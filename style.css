@@ -138,7 +138,7 @@
 }
 .hero-container{
     margin: 0 auto;
-    background-image: url('../img/city.png'); 
+    background-image: url('../img/photo-1.png'); 
     background-position: top right;
     background-repeat: no-repeat;
     min-height: 1009px;
@@ -289,7 +289,7 @@
 .block-img{
     width: 622px;
     height: 724px;
-    background-image: url('../img/city-2.png');
+    background-image: url('../img/photo-2.png');
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
@@ -297,7 +297,7 @@
 .block-img-right{
     width: 589px;
     height: 724px;
-    background-image: url('../img/city-3.png');
+    background-image: url('../img/photo-3.png');
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
@@ -310,7 +310,7 @@
 .block-item{
     display: flex;
     gap: 20px;
-    margin-bottom: 53px;
+    margin-bottom: 40px;
     &::before{
         content: url('../img/decor.png');
     }
@@ -340,9 +340,6 @@
         flex-direction: column-reverse;
         align-items: center;
     }
-    .block-img{
-        display: none;
-    }
 
     .block-center{
         min-width: 100%;
@@ -351,6 +348,10 @@
 }
 @media (max-width: 768px){
     .block-img-right{
+        width: 400px;
+        height: 580px;
+    }
+    .block-img{
         width: 400px;
         height: 580px;
     }
@@ -373,6 +374,10 @@
         width: 300px;
         height: 480px;
     }
+    .block-img{
+        width: 300px;
+        height: 480px;
+    }
 }
 .order-container{
     padding: 100px 20px;
@@ -381,10 +386,10 @@
 .order-form{
     position: relative;
     background: #fff;
-    background-image: url('../img/form-bg.png');
+    background-image: url('../img/photo-4.png');
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top right -10px;
+    background-size: contain;
+    background-position: top right ;
     margin: 0 auto;
     border-radius: 20px;
     max-width: 1587px;
@@ -472,7 +477,7 @@
     .order-inp{
         width: 400px;
         height: 65px;
-        background: transparent;
+        /* background: transparent; */
     }
     .order-btn{
         width: 400px;
@@ -488,9 +493,9 @@
 }
 @media (max-width: 992px){
     .order-form{
-        background-image: url('../img/women.png');
-        background-size: contain;
-        background-position: bottom -20px right -60px;
+        background-image: none;
+        /* background-size: contain;
+        background-position: bottom -20px right -60px; */
         min-height: auto;
         border-radius: 4px;
     }
